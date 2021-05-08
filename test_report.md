@@ -7,15 +7,14 @@
 На тестирование затрачено: 1 час 
 
 В результате тестирования выявлены следующие дефекты:
-* https://github.com/evgsemenov/4.1.1-Credit-Card-Number-Validator/issues/1
-* https://github.com/evgsemenov/4.1.1-Credit-Card-Number-Validator/issues/2
+* [Валидатор карт сервиса не принимает 15-значные номера карт American Express](https://github.com/evgsemenov/4.1.1-Credit-Card-Number-Validator/issues/1)
+* [Валидатор карт сервиса не принимает 13-значные номера карт Visa](https://github.com/evgsemenov/4.1.1-Credit-Card-Number-Validator/issues/2)
 
 
 ## Описание процесса тестирования
 
 В процессе тестирования использовались следующие артефакты:
-* Генератор номеров кредитных карт https://www.getcreditcardnumbers.com/
-
+* [Генератор номеров кредитных карт](https://www.getcreditcardnumbers.com/)
 
 В качестве тестовых данных использовались данные:
 * Сгенерированные 16-значные номера карт Visa и MasterCard
